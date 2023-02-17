@@ -1,0 +1,34 @@
+﻿@*@{
+    ViewData["Title"] = "Home Page";
+}*@
+<br />
+<br />
+<div style="width:65%;margin:auto" class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" aria-expanded="true">
+                Integrate Syncfusion HTML to PDF Converter in Just 5 Minutes !
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Converting HTML to PDF is now easy with just few lines of code using Syncfusion .NET library. This sample demonstrates how to convert MVC View or URL or web page to PDF.
+                <br/>
+                <br />
+                @{
+                    Html.BeginForm("ExportToPDF", "Home", FormMethod.Post);
+                    {
+                        <button type="submit" value="Convert HTML to PDF" class="btn btn-primary">Convert HTML to PDF</button>
+                    }
+                    Html.EndForm();
+                }
+                <br />
+                More information about the HTML to PDF document can be found in this documentation <a href="https://help.syncfusion.com/file-formats/pdf/converting-html-to-pdf">section.</a>
+                <br />
+                <br />
+                &copy;2023 - Syncfusion Inc.
+            </div>
+
+        </div>
+    </div>
+</div>
