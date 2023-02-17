@@ -31,4 +31,4 @@ we will create a existing ASP.Net Core application, add the Syncfusion HTML to P
 <img src="HTMLToPDFSample/HTMLToPDFSample/Output_images/Invoice_url_image.png" alt="output_image" width="100%" Height="Auto"/>
 
 **Output Image**
-<img src="HTMLToPDFSample/HTMLToPDFSample/Output_images/HTML-to-PDF_Output.Jpeg" alt="output_image" width="100%" Height="Auto"/>
+<img src="HTMLToPDFSample/HTMLToPDFSample/Output_images/HTML-to-PDF_Output.png" alt="output_image" width="100%" Height="Auto"/>
