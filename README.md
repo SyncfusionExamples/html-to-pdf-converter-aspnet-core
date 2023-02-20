@@ -8,8 +8,7 @@ The Syncfusion HTML to PDF converter is a .NET library used to convert HTML or w
 * .NET Core SDK (version 3.1 or later)
 
 ### IDEs:
-*  Visual Studio 2019/ Visual Studio 2022 
-*  Visual Studio Code 
+*  Visual Studio 2019/ Visual Studio 2022
 
 ## Code snippet to convert HTML to PDF
 we will create a existing ASP.Net Core application, add the Syncfusion HTML to PDF library package, and write the code
@@ -27,6 +26,7 @@ we will create a existing ASP.Net Core application, add the Syncfusion HTML to P
         return File(stream, "application/pdf", "HTML-to-PDF.pdf");
     }
 ```
+
 **Invoice URL Image**
 <img src="HTMLToPDFSample/HTMLToPDFSample/Output_images/Invoice_url_image.png" alt="output_image" width="100%" Height="Auto"/>
 
